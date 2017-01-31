@@ -1,0 +1,19 @@
+{
+	"name": "pebblesengine/mylanding-module",
+	"type": "project",
+	"license": "GPL-3.0",
+	"authors": [
+	    {
+	        "name": "Artur Sh. Mamedbekov",
+	        "email": "Artur-Mamedbekov@yandex.ru"
+	    }
+	],
+	"require": {
+		"pebbles-engine": "^1.0"
+	},
+	"autoload": {
+	    "psr-4": {
+	  	 	"Pebbles\\MyLanding\\": "src/"
+	    }
+	}
+}
